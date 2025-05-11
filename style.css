@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+}
+
+.col-md-2 span{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.col-md-2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+h3{
+    border: 1px solid;
+    color: brown;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cols{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cols {
+    display: flex;
+    gap: 10px;
+}
+
+.red, .green, .yellow {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.x {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
